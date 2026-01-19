@@ -1,18 +1,4 @@
-# DeepLip
-Deep learning–based lip reading system that transcribes spoken words directly from video. Includes an end-to-end training pipeline and an interactive Streamlit web app for real-time inference.
-Below are two deliverables you can use directly for your repository: a **short GitHub repository description** and a **complete, professional README.md** tailored to a **deep learning–based lip-reading system with a Streamlit app**.
 
----
-
-## GitHub Repository Description (Short)
-
-**Deep learning–based lip reading system that transcribes spoken words directly from video. Includes an end-to-end training pipeline and an interactive Streamlit web app for real-time inference.**
-
----
-
-## README.md
-
-```markdown
 # DeepLip – Visual Speech Recognition Using Deep Learning
 
 DeepLip is an end-to-end **lip reading (visual speech recognition)** system that converts spoken words into text using **video-only input**. The project leverages deep learning techniques to extract spatiotemporal features from lip movements and decode them into character-level text sequences.
@@ -56,7 +42,7 @@ The system follows a standard visual speech recognition architecture:
 
 ## 📁 Project Structure
 
-``
+```
 
 .
 ├── data/                 # Dataset (videos + alignment files)
@@ -70,13 +56,13 @@ The system follows a standard visual speech recognition architecture:
 
 ---
 
-## ⚙️ Installation
+### ⚙️ Installation
 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/deeplip.git
 cd deeplip
-```
+````
 
 ### 2. Create a Virtual Environment (Recommended)
 
