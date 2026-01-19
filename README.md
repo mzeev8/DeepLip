@@ -56,7 +56,7 @@ The system follows a standard visual speech recognition architecture:
 
 ## 📁 Project Structure
 
-```
+``
 
 .
 ├── data/                 # Dataset (videos + alignment files)
@@ -76,7 +76,7 @@ The system follows a standard visual speech recognition architecture:
 ```bash
 git clone https://github.com/your-username/deeplip.git
 cd deeplip
-````
+```
 
 ### 2. Create a Virtual Environment (Recommended)
 
@@ -132,7 +132,7 @@ The Streamlit app provides a simple interface to test lip reading predictions.
 ### Run the App
 
 ```bash
-streamlit run app.py
+streamlit run streamlitapp.py
 ```
 
 ### App Features
@@ -181,28 +181,6 @@ Dataset download is handled programmatically within the notebook.
 
 ---
 
-## 📄 License
-
-This project is intended for educational and research purposes.
-Please add an appropriate license before public or commercial use.
-
----
-
 ## 👤 Author
 
 Developed by **Mohammed Zaid V**
-
-If you find this project useful, feel free to star the repository or contribute.
-
-```
-
----
-
-If you want, I can also:
-- Optimize the README for **research vs production**
-- Write a **model card**
-- Create a **Streamlit UI README section with screenshots**
-- Add **badges** (Python, Streamlit, TensorFlow, License)
-
-Just tell me your preference.
-```
